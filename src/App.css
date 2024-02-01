@@ -1,0 +1,120 @@
+
+body {
+  background-color: rgb(231, 242, 255);
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container {
+  width: 600px;
+  min-height: 0px;
+  background-color: white;
+  margin: 0 auto;
+  top: 100px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgb(240, 249, 255);
+  position: relative;
+  padding-bottom: 30px; /* 버튼 공간 확보 */
+}
+
+
+h1 {
+  margin: auto;
+  font-size: 30px;
+  margin-left: 0px;
+  position: absolute;
+  top: -60px;
+  color: rgb(124, 180, 230);
+}
+
+
+.input-budget {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 10px;
+  
+}
+
+.input-budget p {
+  color: rgb(116, 166, 210);
+  margin: 0 20px;
+  padding: 5px 5px;
+  padding-top: 17px;
+}
+
+.input-budget input {
+  width: 240px;
+  height: 30px;
+  border: 1px solid rgb(116, 166, 210);
+  border-width: 0 0 1.2px;
+  margin: 0 25px;
+}
+
+::placeholder {
+  color: rgb(169, 169, 169);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  width: 520px;;
+  padding: 10px;
+  margin: 0 30px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(215, 232, 246);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.list:hover {
+  background-color: rgb(231, 242, 255);
+}
+
+
+.list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.list p {
+  margin: 0;
+  flex-grow: 1;
+  text-align: justify;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+}
+
+.text span {
+  flex: 1; /* flex 항목 각각이 가용 공간을 동일하게 차지하도록 설정 */
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
+  font-size: 0.9rem;
+  color: rgb(46, 75, 100);
+}
+
+.btn1 {
+  position: relative; /* 상대적 위치 설정 */
+  bottom: 0px; /* 하단에서 10px 떨어진 위치에 배치 */
+  display: flex;
+  justify-content: space-between;
+  width: 94%; /* 버튼이 전체 너비를 차지하도록 설정 */
+}
+
+.delete-btn {
+  height: 35px;
+  padding: 0px 0px; /* 상하 5px, 좌우 10px의 패딩으로 조절 */
+  margin-top: 5px;
+}
+
+.total {
+  margin-top: 10px;
+}
+
